@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+Body{
+    background-color: beige;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#budgetCard{
+    width: 90.99%;
+    position: relative;
+    gap: 87.5px;
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin: 0px 0px 18px 12px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background: #3A98B9;
+    box-shadow: 8px 8px 20px 0px #767070, 7px 5px 10px 1px #000;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#totalExpenseCard{
+    width: 90.99%;
+    position: relative;
+    gap: 87.5px;
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin: 0px 0px 18px 12px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #992424 0%, #697CBB 100%);
+    box-shadow: 8px 8px 20px 0px #767070, 7px 5px 10px 1px #000;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#currentBalanceCard{
+    width: 90.99%;
+    position: relative;
+    gap: 87.5px;
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin: 0px 0px 18px 12px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background: #F48484;
+    box-shadow: 8px 8px 20px 0px #767070, 7px 5px 10px 1px #000;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
